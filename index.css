@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: poppins;
+}
+header {
+  background: #ffdad2;
+  height: 300px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 150px;
+}
+#profile {
+  background: #fbf0ef;
+  margin: 2rem;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+#profile-text {
+  text-align: left;
+  margin-left: 4rem;
+}
+#name {
+  font-size: 4rem;
+}
+#role {
+  font-size: 20px;
+}
+#mail {
+  font-size: 14px;
+}
+#dateTimeContainer {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+#currentDayOfTheWeek {
+  margin-right: 10px;
+  font-size: 12px;
+}
+#currentTimeInUTC {
+  font-size: 12px;
+}
+main {
+  text-align: center;
+  margin: 0 20px 20px 20px;
+}
+main > p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#profile-footer > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#profile-footer > ul > li {
+  list-style-type: none;
+}
+#profile-footer > ul > li > a {
+  text-decoration: none;
+  color: #b73933;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 300px;
+    padding-top: 20px;
+    margin-bottom: 250px;
+  }
+  #profile {
+    margin: 0;
+    display: block;
+  }
+  #profile-text {
+    text-align: center;
+    margin-left: 0;
+  }
+  #name {
+    font-size: 2rem;
+  }
+  #role {
+    font-size: 16px;
+  }
+  #mail {
+    font-size: 14px;
+  }
+  #dateTimeContainer {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  main > p {
+    text-align: justify;
+  }
+}
